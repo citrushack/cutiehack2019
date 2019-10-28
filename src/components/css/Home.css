@@ -7,6 +7,81 @@
 }
 .homeNav{display: none;}
 
+.beans {
+  width: 35%;
+  -webkit-transition: width 0.3s, height 0.3s;
+  transition: width 0.3s, height 0.3s;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.beans:hover {
+  width: 37%;
+}
+
+.blackberry {
+  width: 75%;
+  -webkit-transition: width 0.3s, height 0.3s;
+  transition: width 0.3s, height 0.3s;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blackberry:hover {
+  width: 82%;
+}
+
+.aspb {
+  width: 50%;
+  -webkit-transition: width 0.3s, height 0.3s;
+  transition: width 0.3s, height 0.3s;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aspb:hover {
+  width: 52%;
+}
+
+.blackstone {
+  width: 70%;
+  -webkit-transition: width 0.3s, height 0.3s;
+  transition: width 0.3s, height 0.3s;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blackstone:hover {
+  width: 72%;
+}
+
+.wolfram {
+  width: 65%;
+  -webkit-transition: width 0.3s, height 0.3s;
+  transition: width 0.3s, height 0.3s;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wolfram:hover {
+  width: 67%;
+}
+
 .desktopApply {
   border-radius: 30px !important;
   background-color: #C99E06 !important;
@@ -50,6 +125,8 @@
 .volunteerText {
   color: white;
   font-weight: 300;
+  font-size: 2.4em;
+  letter-spacing: 3px
 }
 
 .mainHeaderContainer {
@@ -120,7 +197,7 @@
 }
 
 .sec2Text {
-  color: white;
+  color: #D3D3D3;
   font-size: 1.5em;
   font-weight: 250;
   width: 75%;
@@ -155,8 +232,8 @@
 
 .sec2Title, .sec3Title, .sec4Title, .volunteerTitle{
   color: white;
-  font-weight: 450;
-  font-size: 3.8em;
+  font-weight: 350;
+  font-size: 3.4em;
   letter-spacing: 1.5px;
 }
 
@@ -209,7 +286,7 @@
 .section4 {
   position: relative;
   width: 100vw;
-  height: 120vh;
+  height: 190vh;
 }
 
 .footer {
@@ -502,12 +579,12 @@
 .noPaddingSponsor {
   padding-left: 0;
   padding-right: 0;
-  padding-bottom: 20%;
 }
 
 .about{
   display: block;
 }
+
 .volunteerText {
   color: white;
   font-weight: 300;

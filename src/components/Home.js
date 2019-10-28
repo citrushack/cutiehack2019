@@ -19,6 +19,11 @@ const acm = require('./assets/acm.png');
 const ieee = require('./assets/ieee.png');
 const volunteer = require('./assets/CUTIE_volunteers.png');
 const mentor = require('./assets/CUTIE_mentors.png');
+const aspb = require('./assets/aspb.png');
+const beans = require('./assets/beans.png');
+const blackberry = require('./assets/blackberry.png');
+const blackstone = require('./assets/blackstone.png');
+const wolfram = require('./assets/wolfram.svg');
 const antIcon = <Icon type="loading" className="spinner" spin />;
 
 class Arrow extends Component {
@@ -234,21 +239,61 @@ class Home extends Component {
         </div>
           <div className="section4">
             <div style={{width: '100%', textAlign: 'center'}}>
-              <h1 className="sec4Title">ORGANIZERS</h1>
-              <Container style={{marginTop: '60px'}}fluid className="noPadding">
-                <Row className="noMarginSponsor">
-                  <Col className="noPaddingSponsor">
-                    <a href="https://acmucr.org/">
-                      <img className="acm" src={acm}></img>
-                    </a>
-                  </Col>
-                  <Col className="noPaddingSponsor">
-                    <a href="https://ieee.ee.ucr.edu/">
-                      <img className="ieee" src={ieee}></img>
-                    </a>
-                  </Col>
-                </Row>
-              </Container>
+            <div>
+                <h1 className="sec4Title">SPECIAL THANKS TO</h1>
+                <Container style={{marginTop: '100px'}} fluid className="noPadding">
+                  <Row className="noMarginSponsor">
+                    <Col className="noPaddingSponsor">
+                      <a href="https://www.cylance.com/en-us/why-cylance.html">
+                        <img className="blackberry" src={blackberry}></img>
+                      </a>
+                    </Col>
+                    <Col className="noPaddingSponsor">
+                      <a href="https://www.badabeansnacks.com/">
+                        <img className="beans" src={beans}></img>
+                      </a>
+                    </Col>
+                  </Row>
+                  <Row className="noMarginSponsor" style={{marginTop: '160px'}}>
+                    <Col className="noPaddingSponsor">
+                      <a href="https://www.wolframalpha.com//">
+                        <img className="wolfram" src={wolfram}></img>
+                      </a>
+                    </Col>
+                    <Col className="noPaddingSponsor">
+                      <a href="https://www.blackstonelaunchpad.org/">
+                        <img className="blackstone" src={blackstone}></img>
+                      </a>
+                    </Col>
+                  </Row>
+                  <Row className="noMarginSponsor" style={{marginTop: '180px'}}>
+                    <Col className="noPaddingSponsor">
+                      <a href="https://aspb.ucr.edu/">
+                        <img className="aspb" src={aspb}></img>
+                      </a>
+                    </Col>
+                    <Col className="noPaddingSponsor">
+                    </Col>
+                  </Row>
+                </Container>
+              </div>
+              <div style={{marginTop: '15%'}}>
+                <h1 className="sec4Title">ORGANIZERS</h1>
+                <Container style={{marginTop: '60px'}} fluid className="noPadding">
+                  <Row className="noMarginSponsor">
+                    <Col className="noPaddingSponsor">
+                      <a href="https://acmucr.org/">
+                        <img className="acm" src={acm}></img>
+                      </a>
+                    </Col>
+                    <Col className="noPaddingSponsor">
+                      <a href="https://ieee.ee.ucr.edu/">
+                        <img className="ieee" src={ieee}></img>
+                      </a>
+                    </Col>
+                  </Row>
+                </Container>
+              </div>
             </div>
             <img className="homeFooter" src={cutieFooter}></img>
           </div>

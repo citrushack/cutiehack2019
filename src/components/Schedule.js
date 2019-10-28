@@ -40,6 +40,20 @@ class Schedule extends Component {
                     </div>
                     <div className="scheduleSlot">
                       <div className="scheduleSection">
+                        <div className="innerLeftSchedule">Lunch</div>
+                        <div className="innerRightSchedule">12:30PM-2:00PM</div>
+                      </div>
+                      <div className="scheduleLoc">TBD</div>
+                    </div>
+                    <div className="scheduleSlot">
+                      <div className="scheduleSection">
+                        <div className="innerLeftSchedule">Dinner</div>
+                        <div className="innerRightSchedule">6:00PM-7:30PM</div>
+                      </div>
+                      <div className="scheduleLoc">TBD</div>
+                    </div>
+                    <div className="scheduleSlot">
+                      <div className="scheduleSection">
                         <div className="innerLeftSchedule">Demos</div>
                         <div className="innerRightSchedule">9:00PM-9:30PM</div>
                       </div>
@@ -54,7 +68,42 @@ class Schedule extends Component {
                     </div>
                 </div>
                 <div className="col-4 scheduleSec2">
-                  WORKSHOPS
+                  <h4 className="scheduleHeaders">WORKSHOPS</h4>
+                  <div className="scheduleSlot">
+                    <div className="scheduleSection">
+                      <div className="innerLeftSchedule">Team Building</div>
+                      <div className="innerRightSchedule">9:00AM-9:30AM</div>
+                    </div>
+                    <div className="scheduleLoc">MSE 104</div>
+                  </div>
+                  <div className="scheduleSlot">
+                    <div className="scheduleSection">
+                      <div className="innerLeftSchedule">Intro to Arduino</div>
+                      <div className="innerRightSchedule">10:00AM-11:00AM</div>
+                    </div>
+                    <div className="scheduleLoc">A125</div>
+                  </div>
+                  <div className="scheduleSlot">
+                    <div className="scheduleSection">
+                      <div className="innerLeftSchedule">Intro to Git</div>
+                      <div className="innerRightSchedule">10:00AM-11:00AM</div>
+                    </div>
+                    <div className="scheduleLoc">WCH 110</div>
+                  </div>
+                  <div className="scheduleSlot">
+                    <div className="scheduleSection">
+                      <div className="innerLeftSchedule">Front end web dev.</div>
+                      <div className="innerRightSchedule">11:30AM-12:30PM</div>
+                    </div>
+                    <div className="scheduleLoc">A125</div>
+                  </div>
+                  <div className="scheduleSlot">
+                    <div className="scheduleSection">
+                      <div className="innerLeftSchedule">Front end web dev.</div>
+                      <div className="innerRightSchedule">11:30AM-12:30PM</div>
+                    </div>
+                    <div className="scheduleLoc">A125</div>
+                  </div>
                 </div>
                 <div className="col-4 scheduleSec3">
                   hello
