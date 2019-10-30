@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
+import { Animated } from 'react-animated-css';
 
 const cbIcon = require('./assets/bIcon.png');
 
@@ -27,22 +28,25 @@ class SideNav extends Component {
         <div className="liveSec2">
           <div className="liveNav">
             <img className="liveCutieIcon" src={cbIcon}></img>
-            <h1 className="liveTitle">Cutie Hack</h1>
+            <h4 className="liveHeaders">CUTIE HACK</h4>
+            <Animated animationInDelay={ 300 }animationIn="fadeIn" isVisible={true}>
+              <div style={{width: '35%', border: '1px solid #F7DE98', margin: 'auto', marginTop: '-4px', marginBottom: '12px'}}></div>
+            </Animated>
             <div className="liveTitleCont">
               <div>
-                <h1 className="liveSubTitle" onClick={this.redirectHome}>Home</h1>
+                <h1 className="liveSubTitle" onClick={this.redirectHome}>HOME</h1>
               </div>
               <div>
-                <h1 className="liveSubTitle" onClick={this.redirectSchedule}>Schedule</h1>
+                <h1 className="liveSubTitle" onClick={this.redirectSchedule}>SCHEDULE</h1>
               </div>
               <div>
-                <h1 className="liveSubTitle" onClick={this.redirectMap}>Map</h1>
+                <h1 className="liveSubTitle" onClick={this.redirectMap}>MAP</h1>
               </div>
               <div>
-                <h1 className="liveSubTitle">Resources</h1>
+                <h1 className="liveSubTitle">RESOURCES</h1>
               </div>
               <div>
-                <h1 className="liveSubTitle" onClick={this.redirectJudges}>Judging</h1>
+                <h1 className="liveSubTitle" onClick={this.redirectJudges}>JUDGING</h1>
               </div>
             </div>
           </div>

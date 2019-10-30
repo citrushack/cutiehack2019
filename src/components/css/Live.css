@@ -72,6 +72,15 @@
   text-align: center;
 }
 
+.liveHeaders {
+  color: white;
+  text-align: center;
+  letter-spacing: 4px;
+  font-size: 28px;
+  font-weight: 500;
+  padding-top: 4%;
+}
+
 .liveTitle {
   padding-top: 20px;
   color: white;
@@ -81,9 +90,10 @@
   font-weight: 300;
   color: rgba(255, 255, 255, 0.4);
   margin: 0;
-  font-size: 25px;
-  margin-bottom: 10px;
+  font-size: 20px;
+  margin-bottom: 12px;
   display: inline-block;
+  letter-spacing: 2px;
 }
 
 .liveSubTitle:hover {
