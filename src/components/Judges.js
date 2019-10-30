@@ -46,23 +46,11 @@ class Judges extends Component {
               <div className="col-4 judgeCol">
                 <div className="defaultImgContainer">
                 </div>
-                <h4 className="judgeImgHeader">GCAP Representative</h4>
+                <h4 className="judgeImgHeader">Zybooks Representative</h4>
                 <p className="judgeImgSub">TBD</p>
               </div>
             </div>
             <div className="row judgeRow">
-              <div className="col-4 judgeCol">
-                <div className="defaultImgContainer">
-                </div>
-                <h4 className="judgeImgHeader">GCAP Representative</h4>
-                <p className="judgeImgSub">TBD</p>
-              </div>
-              <div className="col-4 judgeCol">
-                <div className="defaultImgContainer">
-                </div>
-                <h4 className="judgeImgHeader">Zybooks Representative</h4>
-                <p className="judgeImgSub">TBD</p>
-              </div>
               <div className="col-4 judgeCol">
                 <div className="defaultImgContainer">
                 </div>
