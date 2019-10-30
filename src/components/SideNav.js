@@ -13,12 +13,16 @@ class SideNav extends Component {
     window.location.assign('#/schedule')
   }
 
+  redirectMap= () => {
+    window.location.assign('#/map')
+  }
+
   render(){
     return(
       <div>
         <div className="liveSec2">
           <div className="liveNav">
-            <img className="liveIcon" src={cbIcon}></img>
+            <img className="liveCutieIcon" src={cbIcon}></img>
             <h1 className="liveTitle">Cutie Hack</h1>
             <div className="liveTitleCont">
               <div>
@@ -28,7 +32,7 @@ class SideNav extends Component {
                 <h1 className="liveSubTitle" onClick={this.redirectSchedule}>Schedule</h1>
               </div>
               <div>
-                <h1 className="liveSubTitle">Map</h1>
+                <h1 className="liveSubTitle" onClick={this.redirectMap}>Map</h1>
               </div>
               <div>
                 <h1 className="liveSubTitle">Resources</h1>

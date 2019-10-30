@@ -1,0 +1,38 @@
+.mapBG {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.mapLeft {
+  height: 105vh;
+  width: 75vw;
+  display: flex;
+  align-items: center;
+}
+
+.innerMap {
+  margin: auto;
+  width: 90%;
+  height: 100%;
+  background-color: #323B4B;
+  border-radius: 10px;
+  margin-top: 4%;
+}
+
+.mapHeader {
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+  padding-top: 2%;
+}
+
+.liveMapImage {
+  max-width: 100%;
+  max-height: 100%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 4%;
+  padding-top: 2%;
+  border-radius: 10px;
+}

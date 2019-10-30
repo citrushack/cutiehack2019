@@ -17,7 +17,9 @@ class Schedule extends Component {
               <div className="row" style={{height: '100%'}}>
                 <div className="col-4 scheduleSec1">
                   <h4 className="scheduleHeaders">LOGISTICS</h4>
+                  <Animated animationIn="fadeIn" isVisible={true}>
                   <div style={{width: '35%', border: '1px solid #F7DE98', margin: 'auto', marginTop: '-4px', marginBottom: '12px'}}></div>
+                  </Animated>
                     <div className="scheduleSlot">
                       <div className="scheduleSection">
                         <div className="innerLeftSchedule">Registration</div>

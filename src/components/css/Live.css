@@ -1,21 +1,64 @@
 .liveSec1 {
   background: url('../assets/cutiehacklive.svg');
-  height: 100vh;
-  width: 100vw;
   background-size: contain;
   background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
   display: flex;
 }
 
-.liveSec2 {
-  position: absolute;
-  right: 0;
+.liveFooter {
+  display: flex;
+  text-align: center;
+  margin: auto;
+  width: 35%;
+}
+
+.iconWrapper {
+  margin: auto;
+  padding: 0 !important;
+}
+
+.liveClockWrapper {
+  text-align: center;
+  margin-top: 15%;
+}
+
+.liveHeading {
+  color: white;
+  font-size: 60px;
+  font-weight: 300;
+}
+
+.liveLeft {
+  width: 75vw;
   height: 100vh;
+}
+
+.liveUpperFooter {
+  width: 75vw;
+  height: 55vh;
+}
+
+.liveIcon {
+  color: white !important;
+  font-size: 25px !important;
+  padding: 0 !important;
+}
+
+.liveIcon:hover {
+  color: #A88F54 !important;
+}
+
+.liveSec2 {
+  position: fixed;
+  right: 0;
+  height: 120vh;
   width: 25vw;
   background-color: rgba(50, 59, 75, 0.4);
 }
 
-.liveIcon {
+.liveCutieIcon {
   width: 50%;
   padding-top: 10%;
 }
