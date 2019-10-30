@@ -23,23 +23,26 @@ class Live extends Component {
             <div className="liveUpperFooter">
               <div className="liveClockWrapper">
                 <Countdown date={`${year}-11-09T00:00:00`}/>
+              </div>
+            </div>
+            <div className="liveBottomFooter">
+              <div className="liveClockWrapper">
                 <div className="liveFooter">
                   <div className="iconWrapper">
-                    <Icon className="liveIcon" type="slack" />
+                    <a><Icon className="liveIcon" type="slack" /></a>
                   </div>
                   <div className="iconWrapper">
-                    <Icon className="liveIcon" type="facebook" />
+                    <a href="https://www.facebook.com/cutiehack/"><Icon className="liveIcon" type="facebook" /></a>
                   </div>
                   <div className="iconWrapper">
-                    <Icon className="liveIcon" type="instagram" />
+                    <a href="https://www.instagram.com/cutiehack_ucr/?hl=en"><Icon className="liveIcon" type="instagram" /></a>
                   </div>
                   <div className="iconWrapper">
-                    <Icon className="liveIcon" type="twitter" />
+                    <a href="https://twitter.com/citrushack"><Icon className="liveIcon" type="twitter" /></a>
                   </div>
                 </div>
               </div>
             </div>
-
           </div>
           <SideNav/>
         </div>

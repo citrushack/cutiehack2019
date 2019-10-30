@@ -21,7 +21,6 @@
 
 .liveClockWrapper {
   text-align: center;
-  margin-top: 15%;
 }
 
 .liveHeading {
@@ -37,7 +36,13 @@
 
 .liveUpperFooter {
   width: 75vw;
-  height: 55vh;
+  height: 70vh;
+  padding-top: 18%;
+}
+
+.liveBottomFooter {
+  width: 75vw;
+  height: 30vh;
 }
 
 .liveIcon {
