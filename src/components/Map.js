@@ -15,7 +15,7 @@ class Map extends Component {
             <div className="container innerMap">
               <h4 className="mapHeader">HACKATHON MAP</h4>
               <div style={{width: '16%', border: '1px solid #F7DE98', margin: 'auto', marginTop: '-4px', marginBottom: '12px'}}></div>
-              <div style={{width: '100%', height: '100%'}}>
+              <div style={{marginBottom: '2%'}}>
                 <img className="liveMapImage" src={campusMap}></img>
               </div>
             </div>

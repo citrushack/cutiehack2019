@@ -9,6 +9,7 @@ import ForgotPassword from './components/ForgotPassword';
 import Live from './components/Live';
 import Schedule from './components/Schedule';
 import Map from './components/Map';
+import Judges from './components/Judges';
 import './App.css';
 import { Switch, Route, BrowserRouter as Router, Redirect, HashRouter } from 'react-router-dom';
 import {connect} from 'react-redux';
@@ -41,6 +42,7 @@ class App extends Component {
             <Route path="/administratorDashboard" component={AdminDashboard}/>
             <Route path="/schedule" component={Schedule}/>
             <Route path="/map" component={Map}/>
+            <Route path="/judges" component={Judges}/>
             <Route path="/live" component={Live}/>
             <PrivateRoute path='/profile' component={Profile} isAuthenticated={this.props.currentUser.profile}/>
           </Switch>

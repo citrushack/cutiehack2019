@@ -14,9 +14,11 @@
 .innerSchedule {
   margin: auto;
   width: 95%;
-  height: 93%;
+  height: 95%;
   background-color: #323B4B;
   border-radius: 10px;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .scheduleSec1 {
@@ -42,7 +44,9 @@
 .scheduleHeaders {
   color: white;
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
+  font-size: 28px;
+  font-weight: 500;
 }
 
 .scheduleSection{

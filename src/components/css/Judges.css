@@ -1,0 +1,83 @@
+.judgesBG {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.judgesLeft {
+  height: 100vh;
+  width: 75vw;
+  display: flex;
+}
+
+.innerJudges {
+  margin: auto;
+  width: 95%;
+  height: 95%;
+  background-color: #323B4B;
+  border-radius: 10px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.judgesHeader {
+  color: white;
+  text-align: center;
+  letter-spacing: 4px;
+  padding-top: 2%;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.craigImgContainer {
+  background: url('../assets/craig.jpg');
+}
+
+.mariamImgContainer {
+  background: url('../assets/mariam.jpeg');
+}
+
+.lependuImgContainer {
+  background: url('../assets/lependu.jpeg');
+}
+
+.papaImgContainer {
+  background: url('../assets/papa.jpg');
+}
+
+.jedImgContainer {
+  background: url('../assets/jed.jpeg');
+}
+
+.defaultImgContainer {
+  background: url('../assets/Icon.png');
+}
+
+.craigImgContainer, .mariamImgContainer, .lependuImgContainer, .papaImgContainer, .jedImgContainer, .defaultImgContainer {
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+
+.judgeRow {
+  padding-top: 3%;
+}
+
+.judgeCol {
+  text-align: center;
+}
+
+.judgeImgHeader {
+  color: white;
+  font-weight: 150;
+  margin: 0;
+}
+
+.judgeImgSub {
+  color: rgba(255, 255, 255, 0.4);
+}

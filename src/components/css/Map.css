@@ -13,18 +13,20 @@
 
 .innerMap {
   margin: auto;
-  width: 90%;
-  height: 100%;
+  width: 95%;
+  height: 103%;
   background-color: #323B4B;
   border-radius: 10px;
-  margin-top: 4%;
+  margin-top: 2%;
 }
 
 .mapHeader {
   color: white;
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
   padding-top: 2%;
+  font-size: 28px;
+  font-weight: 500;
 }
 
 .liveMapImage {
