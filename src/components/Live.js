@@ -9,7 +9,6 @@ const devPost = require('./assets/devpost.svg');
 const currentDate = new Date();
 const year = (currentDate.getMonth() === 11 && currentDate.getDate() > 23) ? currentDate.getFullYear() + 1 : currentDate.getFullYear();
 
-
 class Live extends Component {
 
   state = {

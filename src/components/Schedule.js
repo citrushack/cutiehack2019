@@ -15,7 +15,7 @@ class Schedule extends Component {
           <div className="scheduleLeft">
             <div className="container innerSchedule">
               <div className="row" style={{height: '100%'}}>
-                <div className="col-4 scheduleSec1">
+                <div className="col xs=12 scheduleSec1">
                   <h4 className="scheduleHeaders">LOGISTICS</h4>
                   <Animated animationIn="fadeIn" isVisible={true}>
                   <div style={{width: '35%', border: '1px solid #F7DE98', margin: 'auto', marginTop: '-4px', marginBottom: '12px'}}></div>
@@ -70,7 +70,8 @@ class Schedule extends Component {
                       <div className="scheduleLoc">WCH 205/206</div>
                     </div>
                 </div>
-                <div className="col-4 scheduleSec2">
+                <div className="mobileSeparate"></div>
+                <div className="col xs={12} lg={4} scheduleSec2">
                   <h4 className="scheduleHeaders">WORKSHOPS</h4>
                   <div style={{width: '35%', border: '1px solid #F7DE98', margin: 'auto', marginTop: '-4px', marginBottom: '12px'}}></div>
                   <div className="scheduleSlot">
@@ -137,7 +138,8 @@ class Schedule extends Component {
                     <div className="scheduleLoc">WCH 110</div>
                   </div>
                 </div>
-                <div className="col-4 scheduleSec3">
+                <div className="mobileSeparate"></div>
+                <div className="col xs={12} lg={4} scheduleSec3">
                 <h4 className="scheduleHeaders">ACTIVITIES</h4>
                 <div style={{width: '35%', border: '1px solid #F7DE98', margin: 'auto', marginTop: '-4px', marginBottom: '12px'}}></div>
                   <div className="scheduleSlot">
@@ -193,7 +195,9 @@ class Schedule extends Component {
               </div>
             </div>
           </div>
-          <SideNav/>
+          <div className="removeMobile">
+            <SideNav/>
+          </div>
         </div>
       </Animated>
     )
