@@ -15,12 +15,14 @@ class Map extends Component {
             <div className="container innerMap">
               <h4 className="mapHeader">HACKATHON MAP</h4>
               <div style={{width: '16%', border: '1px solid #F7DE98', margin: 'auto', marginTop: '-4px', marginBottom: '12px'}}></div>
-              <div style={{marginBottom: '2%', height: '88%', textAlign: 'center'}}>
+              <div className="actMapImage">
                 <img className="liveMapImage" src={campusMap}></img>
               </div>
             </div>
           </div>
-          <SideNav/>
+          <div className="removeMobile">
+            <SideNav/>
+          </div>
         </div>
       </Animated>
     )
