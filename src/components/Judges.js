@@ -14,19 +14,19 @@ class Judges extends Component {
               <div className="col-4 judgeCol">
                 <div className="craigImgContainer">
                 </div>
-                <h4 className="judgeImgHeader">Craig Schroeder</h4>
+                <h4 className="judgeImgHeader craig">Craig Schroeder</h4>
                 <p className="judgeImgSub">Assistant Professor in CSE Department</p>
               </div>
               <div className="col-4 judgeCol">
                 <div className="mariamImgContainer">
                 </div>
-                <h4 className="judgeImgHeader">Mariam Salloum</h4>
+                <h4 className="judgeImgHeader mariam">Mariam Salloum</h4>
                 <p className="judgeImgSub">Assistant Professor in CSE Department</p>
               </div>
               <div className="col-4 judgeCol">
                 <div className="lependuImgContainer">
                 </div>
-                <h4 className="judgeImgHeader">Paea LePendu</h4>
+                <h4 className="judgeImgHeader paea">Paea LePendu</h4>
                 <p className="judgeImgSub">Assistant Professor in CSE Department</p>
               </div>
             </div>
@@ -34,13 +34,13 @@ class Judges extends Component {
               <div className="col-4 judgeCol">
                 <div className="papaImgContainer">
                 </div>
-                <h4 className="judgeImgHeader">Vagelis Papalexakis</h4>
+                <h4 className="judgeImgHeader vagelis">Vagelis Papalexakis</h4>
                 <p className="judgeImgSub">Assistant Professor in CSE Department</p>
               </div>
               <div className="col-4 judgeCol">
                 <div className="jedImgContainer">
                 </div>
-                <h4 className="judgeImgHeader">Jed Schwendiman</h4>
+                <h4 className="judgeImgHeader jed">Jed Schwendiman</h4>
                 <p className="judgeImgSub">Assistant Dean for Development, BCOE</p>
               </div>
               <div className="col-4 judgeCol">
