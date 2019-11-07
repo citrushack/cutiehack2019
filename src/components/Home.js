@@ -24,6 +24,7 @@ const beans = require('./assets/beans.png');
 const blackberry = require('./assets/blackberry.png');
 const blackstone = require('./assets/blackstone.png');
 const wolfram = require('./assets/wolfram.svg');
+const xyz = require('./assets/xyz.png');
 const antIcon = <Icon type="loading" className="spinner" spin />;
 
 class Arrow extends Component {
@@ -244,8 +245,8 @@ class Home extends Component {
                 <Container style={{marginTop: '100px'}} fluid className="noPadding">
                   <Row className="noMarginSponsor">
                     <Col className="noPaddingSponsor">
-                      <a href="https://www.cylance.com/en-us/why-cylance.html">
-                        <img className="blackberry" src={blackberry}></img>
+                      <a href="https://gen.xyz/">
+                        <img className="xyz" src={xyz}></img>
                       </a>
                     </Col>
                     <Col className="noPaddingSponsor">

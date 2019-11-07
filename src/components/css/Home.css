@@ -22,6 +22,21 @@
   width: 37%;
 }
 
+.xyz {
+  width: 35%;
+  -webkit-transition: width 0.3s, height 0.3s;
+  transition: width 0.3s, height 0.3s;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.xyz:hover {
+  width: 37%;
+}
+
 .blackberry {
   width: 75%;
   -webkit-transition: width 0.3s, height 0.3s;
