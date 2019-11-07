@@ -1,0 +1,29 @@
+
+.Countdown{
+
+    color: white;
+    font-size: 30px;
+    font-weight: 150;
+
+}
+.Countdown-col-element, a{
+
+    padding-left: 20px;
+    padding-right: 10px;
+
+}
+.Countdown-col-element, b{
+
+    padding-left: 10px;
+    padding-right: 20px;
+
+}
+@media screen and (max-width: 414px){
+
+    .Countdown{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+
+}

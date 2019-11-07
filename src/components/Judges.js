@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import SideNav from './SideNav';
 import './css/Judges.css';
+import LiveMobileNavbar from './LiveMobileNavbar';
 
 class Judges extends Component {
   render(){
     return(
       <div className="judgesBG">
+        <div className = "livemobilenavbar"><LiveMobileNavbar /></div>
         <div className="judgesLeft">
           <div className="container innerJudges">
             <h4 className="judgesHeader">ESTEEMED JUDGES</h4>
@@ -14,19 +16,19 @@ class Judges extends Component {
               <div className="col-4 judgeCol">
                 <div className="craigImgContainer">
                 </div>
-                <h4 className="judgeImgHeader">Craig Schroeder</h4>
+                <h4 className="judgeImgHeader craig">Craig Schroeder</h4>
                 <p className="judgeImgSub">Assistant Professor in CSE Department</p>
               </div>
               <div className="col-4 judgeCol">
                 <div className="mariamImgContainer">
                 </div>
-                <h4 className="judgeImgHeader">Mariam Salloum</h4>
+                <h4 className="judgeImgHeader mariam">Mariam Salloum</h4>
                 <p className="judgeImgSub">Assistant Professor in CSE Department</p>
               </div>
               <div className="col-4 judgeCol">
                 <div className="lependuImgContainer">
                 </div>
-                <h4 className="judgeImgHeader">Paea LePendu</h4>
+                <h4 className="judgeImgHeader paea">Paea LePendu</h4>
                 <p className="judgeImgSub">Assistant Professor in CSE Department</p>
               </div>
             </div>
@@ -34,28 +36,14 @@ class Judges extends Component {
               <div className="col-4 judgeCol">
                 <div className="papaImgContainer">
                 </div>
-                <h4 className="judgeImgHeader">Vagelis Papalexakis</h4>
+                <h4 className="judgeImgHeader vagelis">Vagelis Papalexakis</h4>
                 <p className="judgeImgSub">Assistant Professor in CSE Department</p>
               </div>
               <div className="col-4 judgeCol">
                 <div className="jedImgContainer">
                 </div>
-                <h4 className="judgeImgHeader">Jed Schwendiman</h4>
+                <h4 className="judgeImgHeader jed">Jed Schwendiman</h4>
                 <p className="judgeImgSub">Assistant Dean for Development, BCOE</p>
-              </div>
-              <div className="col-4 judgeCol">
-                <div className="defaultImgContainer">
-                </div>
-                <h4 className="judgeImgHeader">Zybooks Representative</h4>
-                <p className="judgeImgSub">TBD</p>
-              </div>
-            </div>
-            <div className="row judgeRow">
-              <div className="col-4 judgeCol">
-                <div className="defaultImgContainer">
-                </div>
-                <h4 className="judgeImgHeader">Zybooks Representative</h4>
-                <p className="judgeImgSub">TBD</p>
               </div>
             </div>
           </div>

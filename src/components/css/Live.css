@@ -1,3 +1,4 @@
+.livemobilenavbar{display:none;}
 .liveSec1 {
   background: url('../assets/cutiehacklive.svg');
   background-size: contain;
@@ -104,8 +105,9 @@
 .liveTitleCont {
   padding-top: 10%;
 }
-
 @media screen and (max-width: 414px){
+
+  .livemobilenavbar{display:block;}
 
   /* .liveUpperFooter {display: none;} */
   .liveSec2 {display: none;}

@@ -1,3 +1,4 @@
+.livemobilenavbar{display:none;}
 .scheduleBG {
   height: 100vh;
   width: 100vw;
@@ -24,21 +25,28 @@
 .scheduleSec1 {
   color: white;
   padding-top: 2%;
-  padding-left: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 33.33333%;
 }
 
 .scheduleSec2 {
   color: white;
   padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
   background-color: #3C4555;
+  width: 33.33333%;
 }
 
 .scheduleSec3 {
   color: white;
   padding-top: 2%;
-  padding-right: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
   background-color: #444D5D;
   border-radius: 0px 10px 10px 0px;
+  width: 33.33333%;
 }
 
 .scheduleHeaders {
@@ -75,4 +83,42 @@
 
 .scheduleSlot {
   height: 10.5%;
+  margin: auto;
+}
+
+@media screen and (max-width: 414px){
+  .livemobilenavbar{display:block;}
+  .scheduleLeft {
+    width: 100vw;
+  }
+  .removeMobile {
+    display: none;
+  }
+  .scheduleBG {
+    display: flex;
+    padding-top: 10%;
+  }
+  .innerSchedule {
+    height: 100%;
+    background-color: transparent;
+  }
+  .scheduleSec1, .scheduleSec2, .scheduleSec3 {
+    margin: auto;
+    background-color: transparent;
+  }
+  .scheduleSec1 {
+    margin-top: 5%;
+  }
+  .scheduleSec3 {
+    margin-bottom: 5%;
+  }
+  .scheduleSlot {
+    width: 85vw;
+  }
+  .mobileSeparate {
+    width: 100vw;
+    border: 1px solid white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
 }
