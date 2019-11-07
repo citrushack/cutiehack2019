@@ -104,3 +104,20 @@
 .liveTitleCont {
   padding-top: 10%;
 }
+@media screen and (max-width: 414px){
+
+  /* .liveUpperFooter {display: none;} */
+  .liveSec2 {display: none;}
+  .liveSec1 {}
+  .liveLeft {
+    width: 100vw;
+  }
+  .liveUpperFooter {padding-top:0px;}
+  .mobilePadder{
+    width: 100vw;
+    height: 150px;
+    padding-bottom: 0;
+    background-color: #394151;
+  }
+
+}

@@ -17,6 +17,7 @@ class Live extends Component {
   render(){
     return(
       <Animated animationIn="fadeIn" isVisible={true}>
+        <div className="mobilePadder"></div>
         <div className="liveSec1">
           <div className="liveLeft">
             <div className="liveUpperFooter">
