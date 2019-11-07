@@ -50,11 +50,15 @@
   background: url('../assets/jed.jpeg');
 }
 
+.brianImgContainer {
+  background: url('../assets/brian.jpeg')
+}
+
 .defaultImgContainer {
   background: url('../assets/Icon.png');
 }
 
-.craigImgContainer, .mariamImgContainer, .lependuImgContainer, .papaImgContainer, .jedImgContainer, .defaultImgContainer {
+.craigImgContainer, .mariamImgContainer, .lependuImgContainer, .papaImgContainer, .jedImgContainer, .brianImgContainer, .defaultImgContainer {
   display: inline-block;
   width: 130px;
   height: 130px;
@@ -86,7 +90,7 @@
 @media screen and (max-width: 414px){
 .livemobilenavbar{display:block;}
 
-.craigImgContainer, .mariamImgContainer, .lependuImgContainer, .papaImgContainer, .jedImgContainer, .defaultImgContainer {
+.craigImgContainer, .mariamImgContainer, .lependuImgContainer, .papaImgContainer, .jedImgContainer, .defaultImgContainer, .brianImgContainer{
   width: 90px;
   height: 90px;
 }
@@ -108,29 +112,8 @@
 }
 .judgeCol {
   margin: auto;
+  text-align: center;
 }
 
-.judgeImgSub {
-
-}
-.judgeImgHeader.craig{
-  display: inline-block;
-
-}
-.judgeImgHeader.mariam{
-  display: inline-block;
-}
-.judgeImgHeader.paea{
-  display: inline-block;
-}
-
-.judgeImgHeader.vagelis{
-  display: inline-block;
-  margin-right: 50%;
-}
-
-.judgeImgHeader.jed{
-  display: inline-block;
-}
 
 }
