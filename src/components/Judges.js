@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import SideNav from './SideNav';
 import './css/Judges.css';
+import LiveMobileNavbar from './LiveMobileNavbar';
 
 class Judges extends Component {
   render(){
     return(
       <div className="judgesBG">
+        <div className = "livemobilenavbar"><LiveMobileNavbar /></div>
         <div className="judgesLeft">
           <div className="container innerJudges">
             <h4 className="judgesHeader">ESTEEMED JUDGES</h4>
@@ -42,20 +44,6 @@ class Judges extends Component {
                 </div>
                 <h4 className="judgeImgHeader jed">Jed Schwendiman</h4>
                 <p className="judgeImgSub">Assistant Dean for Development, BCOE</p>
-              </div>
-              <div className="col-4 judgeCol">
-                <div className="defaultImgContainer">
-                </div>
-                <h4 className="judgeImgHeader">Zybooks Representative</h4>
-                <p className="judgeImgSub">TBD</p>
-              </div>
-            </div>
-            <div className="row judgeRow">
-              <div className="col-4 judgeCol">
-                <div className="defaultImgContainer">
-                </div>
-                <h4 className="judgeImgHeader">Zybooks Representative</h4>
-                <p className="judgeImgSub">TBD</p>
               </div>
             </div>
           </div>

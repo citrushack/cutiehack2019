@@ -1,3 +1,4 @@
+.livemobilenavbar{display:none;}
 .judgesBG {
   width: 75vw;
   height: 100vh;
@@ -83,6 +84,7 @@
 }
 
 @media screen and (max-width: 414px){
+.livemobilenavbar{display:block;}
 
 .craigImgContainer, .mariamImgContainer, .lependuImgContainer, .papaImgContainer, .jedImgContainer, .defaultImgContainer {
   width: 90px;
@@ -94,6 +96,7 @@
 
 .judgesLeft {
   width: 100vw;
+  padding-top: 10%;
 }
 
 .judgeRow {
@@ -123,6 +126,7 @@
 
 .judgeImgHeader.vagelis{
   display: inline-block;
+  margin-right: 50%;
 }
 
 .judgeImgHeader.jed{

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import SideNav from './SideNav';
 import { Animated } from 'react-animated-css';
 import './css/Schedule.css'
+import LiveMobileNavbar from './LiveMobileNavbar';
 
 
 class Schedule extends Component {
@@ -11,6 +12,7 @@ class Schedule extends Component {
   render() {
     return(
       <Animated animationIn="fadeIn" isVisible={true}>
+         <div className = "livemobilenavbar"><LiveMobileNavbar /></div>
         <div className="scheduleBG">
           <div className="scheduleLeft">
             <div className="container innerSchedule">

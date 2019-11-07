@@ -1,3 +1,4 @@
+.livemobilenavbar{display:none;}
 .scheduleBG {
   height: 100vh;
   width: 100vw;
@@ -86,6 +87,7 @@
 }
 
 @media screen and (max-width: 414px){
+  .livemobilenavbar{display:block;}
   .scheduleLeft {
     width: 100vw;
   }
@@ -94,6 +96,7 @@
   }
   .scheduleBG {
     display: flex;
+    padding-top: 10%;
   }
   .innerSchedule {
     height: 100%;

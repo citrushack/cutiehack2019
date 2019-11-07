@@ -4,6 +4,7 @@ import Countdown from './Countdown';
 import { Icon } from 'antd';
 import { Animated } from 'react-animated-css';
 import './css/Live.css';
+import LiveMobileNavbar from './LiveMobileNavbar';
 
 const devPost = require('./assets/devpost.svg');
 const currentDate = new Date();
@@ -16,7 +17,9 @@ class Live extends Component {
 
   render(){
     return(
+      
       <Animated animationIn="fadeIn" isVisible={true}>
+        <div className = "livemobilenavbar"><LiveMobileNavbar /></div>
         <div className="mobilePadder"></div>
         <div className="liveSec1">
           <div className="liveLeft">

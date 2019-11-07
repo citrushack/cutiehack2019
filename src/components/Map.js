@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import SideNav from './SideNav';
 import { Animated } from 'react-animated-css';
 import './css/Map.css';
+import LiveMobileNavbar from './LiveMobileNavbar';
 
 const campusMap = require('./assets/CUTIE_maps.png');
 
@@ -10,6 +11,7 @@ class Map extends Component {
   render(){
     return(
       <Animated animationIn="fadeIn" isVisible={true}>
+         <div className = "livemobilenavbar"><LiveMobileNavbar /></div>
         <div className="mapBG">
           <div className="mapLeft">
             <div className="container innerMap">
