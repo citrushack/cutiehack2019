@@ -17,7 +17,7 @@ class Live extends Component {
 
   render(){
     return(
-      
+
       <Animated animationIn="fadeIn" isVisible={true}>
         <div className = "livemobilenavbar"><LiveMobileNavbar /></div>
         <div className="mobilePadder"></div>
@@ -25,11 +25,13 @@ class Live extends Component {
           <div className="liveLeft">
             <div className="liveUpperFooter">
               <div className="liveClockWrapper">
+                <div className="clockBorder">
                 <Countdown date={`${year}-11-09T00:00:00`}/>
+                </div>
               </div>
             </div>
             <div className="liveBottomFooter">
-              <div className="liveClockWrapper">
+              <div className="liveIconWrapper">
                 <div className="liveFooter">
                   <div className="iconWrapper">
                     <a><Icon className="liveIcon" type="slack" /></a>
