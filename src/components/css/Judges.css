@@ -84,7 +84,7 @@
 }
 
 @media screen and (max-width: 414px){
-  .livemobilenavbar{display:block;}
+.livemobilenavbar{display:block;}
 
 .craigImgContainer, .mariamImgContainer, .lependuImgContainer, .papaImgContainer, .jedImgContainer, .defaultImgContainer {
   width: 90px;

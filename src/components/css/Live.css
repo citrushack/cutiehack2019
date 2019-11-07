@@ -107,14 +107,14 @@
 }
 @media screen and (max-width: 414px){
 
-  .livemobilenavbar{display:block;}
+.livemobilenavbar{display:block;}
 
-  /* .liveUpperFooter {display: none;} */
-  .liveSec2 {display: none;}
-  .liveSec1 {position: fixed;}
-  .liveLeft {
-    width: 100vw;
-  }
+/* .liveUpperFooter {display: none;} */
+.liveSec2 {display: none;}
+.liveSec1 {position: fixed;}
+.liveLeft {
+  width: 100vw;
+}
   .liveUpperFooter {padding-top:0px;}
   .mobilePadder{
     width: 100vw;
@@ -122,6 +122,5 @@
     padding-bottom: 0;
     background-color: #394151;
   }
-
 }
 
