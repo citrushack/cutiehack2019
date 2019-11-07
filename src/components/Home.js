@@ -65,7 +65,7 @@ class Home extends Component {
     });
     this.state = {
       auth: false,
-      redirectRegister: false,
+      redirectLive: false,
       redirectLogin: false,
       loading: false
     };
@@ -87,7 +87,7 @@ class Home extends Component {
 
   handleClick = () => {
     this.setState({
-      redirectRegister: true
+      redirectLive: true
     })
   }
 
@@ -135,7 +135,7 @@ class Home extends Component {
                   null
                   :
                   <div>
-
+                    <Button onClick={this.handleClick} className="desktopApply">Live</Button>
                   </div>
                 }
               </div>
@@ -318,8 +318,8 @@ class Home extends Component {
     )
   }
   render(){
-    if (this.state.redirectRegister){
-      return <Redirect push to= "/register" />
+    if (this.state.redirectLive){
+      return <Redirect push to= "/live" />
     }
     if (this.state.redirectLogin){
       return <Redirect push to="/login" />
