@@ -1,5 +1,5 @@
 .judgesBG {
-  width: 100vw;
+  width: 75vw;
   height: 100vh;
   display: flex;
 }
@@ -84,42 +84,49 @@
 
 @media screen and (max-width: 414px){
 
+.craigImgContainer, .mariamImgContainer, .lependuImgContainer, .papaImgContainer, .jedImgContainer, .defaultImgContainer {
+  width: 90px;
+  height: 90px;
+}
+.judgesBG {
+  width: 100vw;
+}
+
+.judgesLeft {
+  width: 100vw;
+}
+
 .judgeRow {
   display: block;
-  margin-left:16%;          
-
 }
+
+.innerJudges {
+  background-color:  transparent;
+}
+.judgeCol {
+  margin: auto;
+}
+
 .judgeImgSub {
-  display: inline-block;
-  width: 300%;
-  
+
 }
 .judgeImgHeader.craig{
   display: inline-block;
-  margin-left:30%;
 
 }
 .judgeImgHeader.mariam{
   display: inline-block;
-  margin-left:70%;
-
 }
 .judgeImgHeader.paea{
   display: inline-block;
-  margin-left:50%;
-
 }
+
 .judgeImgHeader.vagelis{
   display: inline-block;
-  margin-left:30%;
-
 }
+
 .judgeImgHeader.jed{
   display: inline-block;
-
-
 }
-.innerJudges {
- height: 2000px;
-}
+
 }
