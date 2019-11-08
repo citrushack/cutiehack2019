@@ -135,7 +135,7 @@ class Home extends Component {
                   null
                   :
                   <div>
-                    <Button onClick={this.handleClick} className="desktopApply">Live</Button>
+                    <Button onClick={this.handleClick} className="desktopApply">LIVE</Button>
                   </div>
                 }
               </div>

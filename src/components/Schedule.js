@@ -186,13 +186,6 @@ class Schedule extends Component {
                     </div>
                     <div className="scheduleLoc">Bytes</div>
                   </div>
-                  <div className="scheduleSlot">
-                    <div className="scheduleSection">
-                      <div className="innerLeftSchedule">Boba Time</div>
-                      <div className="innerRightSchedule">10:00PM-10:30PM</div>
-                    </div>
-                    <div className="scheduleLoc">Bytes</div>
-                  </div>
                 </div>
               </div>
             </div>
