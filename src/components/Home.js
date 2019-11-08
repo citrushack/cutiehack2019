@@ -25,6 +25,7 @@ const blackberry = require('./assets/blackberry.png');
 const blackstone = require('./assets/blackstone.png');
 const wolfram = require('./assets/wolfram.svg');
 const xyz = require('./assets/xyz.png');
+const gcap = require('./assets/gcap.png');
 const antIcon = <Icon type="loading" className="spinner" spin />;
 
 class Arrow extends Component {
@@ -274,11 +275,14 @@ class Home extends Component {
                       </a>
                     </Col>
                     <Col className="noPaddingSponsor">
+                      <a href="https://www.gcapucr.com/">
+                        <img className="gcap" src={gcap}></img>
+                      </a>
                     </Col>
                   </Row>
                 </Container>
               </div>
-              <div style={{marginTop: '15%'}}>
+              <div style={{marginTop: '18%'}}>
                 <h1 className="sec4Title">ORGANIZERS</h1>
                 <Container style={{marginTop: '60px'}} fluid className="noPadding">
                   <Row className="noMarginSponsor">

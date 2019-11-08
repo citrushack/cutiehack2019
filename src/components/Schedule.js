@@ -31,6 +31,13 @@ class Schedule extends Component {
                     </div>
                     <div className="scheduleSlot">
                       <div className="scheduleSection">
+                        <div className="innerLeftSchedule">Breakfast</div>
+                        <div className="innerRightSchedule">7:00AM-9:00AM</div>
+                      </div>
+                      <div className="scheduleLoc">Bytes</div>
+                    </div>
+                    <div className="scheduleSlot">
+                      <div className="scheduleSection">
                         <div className="innerLeftSchedule">Opening Ceremony</div>
                         <div className="innerRightSchedule">8:00AM-9:00AM</div>
                         </div>
@@ -60,7 +67,7 @@ class Schedule extends Component {
                     <div className="scheduleSlot">
                       <div className="scheduleSection">
                         <div className="innerLeftSchedule">Demos</div>
-                        <div className="innerRightSchedule">9:00PM-9:30PM</div>
+                        <div className="innerRightSchedule">9:15PM-10:15PM</div>
                       </div>
                       <div className="scheduleLoc">WCH 205/206</div>
                     </div>
@@ -99,7 +106,7 @@ class Schedule extends Component {
                   </div>
                   <div className="scheduleSlot">
                     <div className="scheduleSection">
-                      <div className="innerLeftSchedule">Front end web dev.</div>
+                      <div className="innerLeftSchedule">Front End Web Dev.</div>
                       <div className="innerRightSchedule">11:30AM-12:30PM</div>
                     </div>
                     <div className="scheduleLoc">A125</div>
@@ -138,6 +145,13 @@ class Schedule extends Component {
                       <div className="innerRightSchedule">3:00PM-4:00PM</div>
                     </div>
                     <div className="scheduleLoc">WCH 110</div>
+                  </div>
+                  <div className="scheduleSlot">
+                    <div className="scheduleSection">
+                      <div className="innerLeftSchedule">How to Pitch Your Project</div>
+                      <div className="innerRightSchedule">6:30PM-7:30PM</div>
+                    </div>
+                    <div className="scheduleLoc">A125</div>
                   </div>
                 </div>
                 <div className="mobileSeparate"></div>

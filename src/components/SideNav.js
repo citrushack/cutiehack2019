@@ -6,8 +6,12 @@ const cbIcon = require('./assets/bIcon.png');
 
 class SideNav extends Component {
 
-  redirectHome = () => {
+  redirectLive = () => {
     window.location.assign('#/live')
+  }
+
+  redirectHome = () => {
+    window.location.assign('/')
   }
 
   redirectSchedule = () => {
@@ -33,6 +37,9 @@ class SideNav extends Component {
               <div style={{width: '35%', border: '1px solid #F7DE98', margin: 'auto', marginTop: '-4px', marginBottom: '12px'}}></div>
             </Animated>
             <div className="liveTitleCont">
+              <div>
+                <h1 className="liveSubTitle" onClick={this.redirectLive}>LIVE</h1>
+              </div>
               <div>
                 <h1 className="liveSubTitle" onClick={this.redirectHome}>HOME</h1>
               </div>

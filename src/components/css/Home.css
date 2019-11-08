@@ -37,8 +37,8 @@
   width: 37%;
 }
 
-.blackberry {
-  width: 75%;
+.gcap {
+  width: 25%;
   -webkit-transition: width 0.3s, height 0.3s;
   transition: width 0.3s, height 0.3s;
   position: absolute;
@@ -48,8 +48,8 @@
   margin-right: auto;
 }
 
-.blackberry:hover {
-  width: 82%;
+.gcap:hover {
+  width: 27%;
 }
 
 .aspb {
