@@ -38,10 +38,7 @@ class SideNav extends Component {
             </Animated>
             <div className="liveTitleCont">
               <div>
-                <h1 className="liveSubTitle" onClick={this.redirectLive}>LIVE</h1>
-              </div>
-              <div>
-                <h1 className="liveSubTitle" onClick={this.redirectHome}>HOME</h1>
+                <h1 className="liveSubTitle" onClick={this.redirectHome}>BACK TO EVENT SITE</h1>
               </div>
               <div>
                 <h1 className="liveSubTitle" onClick={this.redirectSchedule}>SCHEDULE</h1>
@@ -54,6 +51,9 @@ class SideNav extends Component {
               </div>
               <div>
                 <h1 className="liveSubTitle" onClick={this.redirectJudges}>JUDGING</h1>
+              </div>
+              <div>
+                <h1 className="liveSubTitle" onClick={this.redirectLive}>LIVE</h1>
               </div>
             </div>
           </div>
