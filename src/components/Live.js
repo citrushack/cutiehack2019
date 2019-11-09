@@ -26,7 +26,7 @@ class Live extends Component {
             <div className="liveUpperFooter">
               <div className="liveClockWrapper">
                 <div className="clockBorder">
-                <Countdown date={`${year}-11-09T00:00:00`}/>
+                <Countdown date={`${year}-11-09T21:25:00`}/>
                 </div>
               </div>
             </div>

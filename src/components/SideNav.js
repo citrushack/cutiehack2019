@@ -47,7 +47,7 @@ class SideNav extends Component {
                 <h1 className="liveSubTitle" onClick={this.redirectMap}>MAP</h1>
               </div>
               <div>
-                <h1 className="liveSubTitle">RESOURCES</h1>
+                <a href="https://github.com/citrushack/CutieHack19-HackerResources" className="liveSubTitle">RESOURCES</a>
               </div>
               <div>
                 <h1 className="liveSubTitle" onClick={this.redirectJudges}>JUDGING</h1>

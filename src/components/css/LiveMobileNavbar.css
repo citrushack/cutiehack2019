@@ -1,11 +1,9 @@
-.LMN{
-    position:fixed;
-    
+.LMN {
+  position:fixed;
+  background-color: #202838;
+  width: 100vw;
 }
 
-.schedbutton{
-
-    color: white;
-
-
+.schedbutton {
+  color: white;
 }
