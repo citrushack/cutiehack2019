@@ -133,4 +133,8 @@
     padding-bottom: 0;
     background-color: #394151;
   }
+
+  .clockBorder {
+    width: 130%;
+  }
 }
