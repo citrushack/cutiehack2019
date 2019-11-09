@@ -34,7 +34,7 @@ class Live extends Component {
               <div className="liveIconWrapper">
                 <div className="liveFooter">
                   <div className="iconWrapper">
-                    <a><Icon className="liveIcon" type="slack" /></a>
+                    <a href="https://join.slack.com/t/cutiehack2019/shared_invite/enQtODE5ODU3MDQ5NjA2LTc1MjY1ZjgxZGJjOGY1MzM1NzNiZjUxMTlmZmQzZGRjNWY2ZmYxYjU0OWFmNGZlY2U0OGE0NWM0NmIxY2QzMTU"><Icon className="liveIcon" type="slack" /></a>
                   </div>
                   <div className="iconWrapper">
                     <a href="https://www.facebook.com/cutiehack/"><Icon className="liveIcon" type="facebook" /></a>

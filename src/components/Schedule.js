@@ -25,7 +25,7 @@ class Schedule extends Component {
                     <div className="scheduleSlot">
                       <div className="scheduleSection">
                         <div className="innerLeftSchedule">Registration</div>
-                        <div className="innerRightSchedule">7:00AM-8:00AM</div>
+                        <div className="innerRightSchedule">7:00AM-12:00PM</div>
                       </div>
                       <div className="scheduleLoc">Bytes</div>
                     </div>
@@ -34,7 +34,7 @@ class Schedule extends Component {
                         <div className="innerLeftSchedule">Breakfast</div>
                         <div className="innerRightSchedule">7:00AM-9:00AM</div>
                       </div>
-                      <div className="scheduleLoc">Bytes</div>
+                      <div className="scheduleLoc">MSE 104</div>
                     </div>
                     <div className="scheduleSlot">
                       <div className="scheduleSection">
@@ -60,7 +60,7 @@ class Schedule extends Component {
                     <div className="scheduleSlot">
                       <div className="scheduleSection">
                         <div className="innerLeftSchedule">Dinner</div>
-                        <div className="innerRightSchedule">6:00PM-7:30PM</div>
+                        <div className="innerRightSchedule">6:00PM-8:00PM</div>
                       </div>
                       <div className="scheduleLoc">Bytes</div>
                     </div>
@@ -121,7 +121,7 @@ class Schedule extends Component {
                   <div className="scheduleSlot">
                     <div className="scheduleSection">
                       <div className="innerLeftSchedule">Intro to Flask</div>
-                      <div className="innerRightSchedule">1:30PM-2:00PM</div>
+                      <div className="innerRightSchedule">1:30PM-2:30PM</div>
                     </div>
                     <div className="scheduleLoc">Bourns A125</div>
                   </div>

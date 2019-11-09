@@ -38,7 +38,7 @@ class SideNav extends Component {
             </Animated>
             <div className="liveTitleCont">
               <div>
-                <h1 className="liveSubTitle" onClick={this.redirectHome}>BACK TO EVENT SITE</h1>
+                <h1 className="liveSubTitle" onClick={this.redirectLive}>HOME</h1>
               </div>
               <div>
                 <h1 className="liveSubTitle" onClick={this.redirectSchedule}>SCHEDULE</h1>
@@ -53,7 +53,10 @@ class SideNav extends Component {
                 <h1 className="liveSubTitle" onClick={this.redirectJudges}>JUDGING</h1>
               </div>
               <div>
-                <h1 className="liveSubTitle" onClick={this.redirectLive}>LIVE</h1>
+                <a href="https://cutiehack2019.devpost.com/"className="liveSubTitle">DEVPOST</a>
+              </div>
+              <div>
+                <h1 className="liveSubTitle" onClick={this.redirectHome}>BACK TO EVENT SITE</h1>
               </div>
             </div>
           </div>
